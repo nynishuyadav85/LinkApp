@@ -27,7 +27,7 @@ public void doPost(HttpServletRequest req, HttpServletResponse res)throws Servle
 			
 		}
 		else {
-			pw.println("<h1 style='color:green;text-align:center'>" + name +   "You are not elegible for opening account </h1>" );
+			pw.println("<h1 style='color:green;text-align:center'>" + name +   "You are not elegible for opening account  ok</h1>" );
 		}
 		pw.println("<a href='http://localhost:2030/SalaryApp/input.html'><img src ='home.png'></a>");
 		pw.close();
